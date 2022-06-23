@@ -1,0 +1,26 @@
+form{
+    width: 45%;
+}
+
+button {
+    background: #c8d0f7;
+    color: black;
+    border: none;
+    border-radius: 7px; 
+    font-family: 'VT323', monospace;
+    font-size: 20px
+}
+
+h6 {
+    
+font-family: 'Indie Flower', cursive;
+font-size: 25px;
+
+}
+
+footer, section, div, a {
+    font-size: small;
+    font-style: bold;
+    color: black;
+    text-decoration: none;
+}
