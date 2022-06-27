@@ -3,7 +3,7 @@ form{
 }
 
 button {
-    background: #c8d0f7;
+    background: rgb(241, 241, 241);
     color: black;
     border: none;
     border-radius: 7px; 
@@ -12,15 +12,32 @@ button {
 }
 
 h6 {
-    
 font-family: 'Indie Flower', cursive;
 font-size: 25px;
 
 }
 
-footer, section, div, a {
-    font-size: small;
-    font-style: bold;
+footer section {
+    background-color: #f8f9fa;
+}
+
+footer section div a {
     color: black;
     text-decoration: none;
 }
+
+footer {
+    font-size: small;
+    font-style: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease-in-out;
+}
+
+.produto{
+width:200px ;
+height:200px ;
+}
+
