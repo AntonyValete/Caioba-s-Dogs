@@ -1,4 +1,4 @@
-form{
+form {
     width: 45%;
 }
 
@@ -6,15 +6,14 @@ button {
     background: rgb(241, 241, 241);
     color: black;
     border: none;
-    border-radius: 7px; 
+    border-radius: 7px;
     font-family: 'VT323', monospace;
     font-size: 20px
 }
 
-h6 {
-font-family: 'Indie Flower', cursive;
-font-size: 25px;
-
+h4 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
 }
 
 footer section {
@@ -36,8 +35,19 @@ button:hover {
     transition: transform 200ms ease-in-out;
 }
 
-.produto{
-width:200px ;
-height:200px ;
+.produto {
+    width: 200px;
+    height: 200px;
 }
 
+h1 {
+    text-align: center;
+    text-decoration: underline aqua;
+}
+
+.btn-primary {
+    color: black;
+    font-size: 15px;
+    transition: transform 200ms ease-in-out;
+    border: none;
+}
