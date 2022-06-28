@@ -1,0 +1,294 @@
+{
+    "produtos": [
+        {
+            "racao": [
+                {
+                    "id": 0,
+                    "nome": "Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos",
+                    "img": "https://www.petlove.com.br/images/products/250507/large/2492303_FRENTE.jpg?1635780028",
+                    "preco": 169.01,
+                    "descricao": "A Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos traz nutrição de alta qualidade pelo melhor custo beneficio. Desenvolvido por veterinários a partir de ingredientes selecionados, sem corantes e aromatizantes artificiais, garante uma alimentação balanceada e sabor irresistível.&&Perfeita para nutrir e alegrar o seu cão! Benefícios:&- Intestino saudável;&- Reduz o odor das fezes;&- Proteínas de alta qualidade;&- Pelagem mais macia e brilhante.&&Nutrilus garante você e seu pet satisfeitos: a nutrição dos cães e gatos e satisfação dos tutores são nossos maiores objetivos. Por isso, oferecemos o programa garantia de satisfação. Para saber mais, entre em contato pelo telefone 3003-5052 ou pelo e-mail contato@nutrilus.com.br, disponível de segunda a sexta das 9h às 17h. Para mais informações acesse: www.nutrilus.com.br."
+                },
+                {
+                    "id": 1,
+                    "nome": "Ração Magnus Todo Dia Sabor Carne para Cães Adultos",
+                    "img": "https://www.petlove.com.br/images/products/225830/large/Ra%C3%A7%C3%A3o_Magnus_Todo_Dia_Sabor_Carne_para_C%C3%A3es_Adultos_311810.jpg?1627724051",
+                    "preco": 201.90,
+                    "descricao": "A Ração Magnus Todo Dia Sabor Carne para Cães Adultos contém ingredientes que proporcionam um alimento com todos os nutrientes essenciais e importantes para a qualidade de vida do seu cachorro."
+                },
+                {
+                    "id": 2,
+                    "nome": "Ração Seca True para Cães Adultos Raças Médias e Grandes",
+                    "img": "https://www.petlove.com.br/images/products/255531/product/Ra%C3%A7%C3%A3o_Seca_True_para_C%C3%A3es_Adultos_Ra%C3%A7as_M%C3%A9dias_e_Grandes_10_1KG_2638254.png?1653046196",
+                    "preco": 227.92,
+                    "descricao": "A Ração Seca True para Cães Adultos Raças Médias e Grandes é um alimento completo e super premium natural.&&- Feita com ingredientes naturais e deliciosos: frango, batata-doce, brócolis, cenoura e arroz integral;&- Feita com carne de verdade, sem farinha de vísceras;&- Sem transgênicos, corantes e conservantes artificiais;&- Enriquecido com Natural Complex: composto natural rico em extratos herbais, algas, fibras e prebióticos para reforçar as defesas do organismo;&- Saúde oral: com hexametafosfato de sódio;&- Redução do odor das fezes: com extrato de yucca;&- Saúde das articulações: com condroitina e glicosamina.&&True&Amor de Verdade, Ingrediente de Verdade.&&Para mais informações acesse: www.truefoods.com.br&Dúvidas entre em contato com contato@truefoods.com.br&&Solicitações referentes à Garantia de Satisfação devem ser encaminhadas diretamente à True Foods por meio do telefone (11) 3135 6555."
+                },
+                {
+                    "id": 3,
+                    "nome": "Ração Premier Pet Ambientes Internos Cães Filhotes Frango e Salmão",
+                    "img": "https://www.petlove.com.br/images/products/215256/product/Ra%C3%A7%C3%A3o_Premier_Pet_Ambientes_Internos_C%C3%A3es_Filhotes_Frango_e_Salm%C3%A3o_3108262_L_12.jpg?1627691179",
+                    "preco": 223.90,
+                    "descricao": "Cães Filhotes que vivem dentro de casa, em contato próximo com seus donos, têm necessidades nutricionais especiais. A Ração Premier Pet Ambientes Internos Cães Filhotes Sabor Frango e Salmão é o primeiro alimento Super Premium específico para filhotes com este estilo de vida. Sua fórmula exclusiva contém somente ingredientes nobres, conferindo um excelente sabor, pelagem muito mais bonita e saudável, fezes em menor volume e odor reduzido. É um alimento completo e balanceado que satisfaz 100% das necessidades nutricionais do seu filhote, proporcionando ossos, músculos e dentes mais fortes. Por isso, não é recomendado nenhum tipo de suplementação.&&Solicitações referentes à Garantia de Satisfação devem ser encaminhadas diretamente para o fabricante por meio do PremieR Responde – Telefone 0800 055 66 66. Para mais informações acesse: https://www.premierpet.com.br/garantia-premierpet/"
+                },
+                {
+                    "id": 4,
+                    "nome": "Ração Premier Pet Formula Cães Adultos Raças Pequenas",
+                    "img": "https://www.petlove.com.br/images/products/223525/product/Ra%C3%A7%C3%A3o_Premier_Pet_Formula_C%C3%A3es_Adultos_Ra%C3%A7as_Pequenas_3108224_20KG.jpg?1627716333",
+                    "preco": 290.90,
+                    "descricao": "A Ração Premier Pet Formula Cães Adultos Raças Pequenas é o primeiro alimento Super Premium fabricado no Brasil, ele é cientificamente formulado segundo o conceito de Nutrição Ótima, contendo somente ingredientes nobres e selecionados sob rigoroso controle de qualidade, garantindo um alimento muito mais nutritivo e saboroso. Isto significa uma pelagem mais bonita, fezes em menor volume, melhor digestibilidade e mais saúde.&&Solicitações referentes à Garantia de Satisfação devem ser encaminhadas diretamente para o fabricante por meio do PremieR Responde – Telefone 0800 055 66 66. Para mais informações acesse: https://www.premierpet.com.br/garantia-premierpet/"
+                },
+                {
+                    "id": 5,
+                    "nome": "Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos de Raças Pequenas",
+                    "img": "https://www.petlove.com.br/images/products/250511/product/2616989_FRENTE.jpg?1635780581",
+                    "preco": 129.12,
+                    "descricao": "A Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos de Raças Pequenas traz nutrição de alta qualidade pelo melhor custo beneficio. Desenvolvido por veterinários a partir de ingredientes selecionados, sem corantes e aromatizantes artificiais, garante uma alimentação balanceada e sabor irresistível.&&Perfeita para nutrir e alegrar o seu cão! Benefícios:&- Intestino saudável;&- Reduz o odor das fezes;&- Proteínas de alta qualidade;&- Pelagem mais macia e brilhante.&&Nutrilus garante você e seu pet satisfeitos: a nutrição dos cães e gatos e satisfação dos tutores são nossos maiores objetivos. Por isso, oferecemos o programa garantia de satisfação. Para saber mais, entre em contato pelo telefone 3003-5052 ou pelo e-mail contato@nutrilus.com.br, disponível de segunda a sexta das 9h às 17h. Para mais informações acesse: www.nutrilus.com.br."
+                },
+                {
+                    "id": 6,
+                    "nome": "Ração Premier Pet Formula Cães Filhotes Raças Grandes e Gigantes Frango",
+                    "img": "https://www.petlove.com.br/images/products/229293/product/Ra%C3%A7%C3%A3o_Premier_Pet_Formula_C%C3%A3es_Filhotes_Ra%C3%A7as_Grandes_e_Gigantes_Frango_-_15_Kg_3108282.jpg?1627730969",
+                    "preco": 237.90,
+                    "descricao": "A Ração Premier Pet Formula Cães Filhotes Raças Grandes e Gigantes Frango foi cientificamente formulado para atender essas necessidades específicas de cães de porte grande e gigante. Contribui para uma dieta com energia moderada, e evita que sua estrutura óssea de filhote tenha que suportar prematuramente um peso não condizente com seu desenvolvimento ainda incompleto, dessa forma, reduz-se a predisposição ao aparecimento de doenças articulares.&&Solicitações referentes à Garantia de Satisfação devem ser encaminhadas diretamente para o fabricante por meio do PremieR Responde – Telefone 0800 55 66 66. Para mais informações acesse: http://www.premierpet.com.br/garantia-premier-pet/"
+                },
+                {
+                    "id": 7,
+                    "nome": "Ração Seca True para Cães Adultos Raças Pequenas",
+                    "img": "https://www.petlove.com.br/racao-seca-true-para-caes-adultos-racas-pequenas/p?sku=2638252",
+                    "preco": 119.92,
+                    "descricao": "A Ração para cachorro True, feita para Cães Adultos Raças Pequenas 2,5kg é um alimento completo e super premium natural.&&- Feita com ingredientes naturais e deliciosos: frango, batata-doce, brócolis, cenoura e arroz integral;&- Feita com carne de verdade, sem farinha de vísceras;&- Sem transgênicos, corantes e conservantes artificiais;&- Enriquecido com Natural Complex: composto natural exclusivo rico em antioxidantes para reforçar as defesas do organismo;&&True Amor de Verdade, Ingrediente de Verdade.&&Para mais informações acesse: www.truefoods.com.br&Dúvidas entre em contato com contato@truefoods.com.br&&Solicitações referentes à Garantia de Satisfação devem ser encaminhadas diretamente à True Foods por meio do telefone (11) 3135 6555."
+                },
+                {
+                    "id": 8,
+                    "nome": "Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos",
+                    "img": "https://www.petlove.com.br/images/products/250504/product/2492302_FRENTE.jpg?1635779700",
+                    "preco": 125.91,
+                    "descricao": "A Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos traz nutrição de alta qualidade pelo melhor custo beneficio. Desenvolvido por veterinários a partir de ingredientes selecionados, sem corantes e aromatizantes artificiais, garante uma alimentação balanceada e sabor irresistível.&&Perfeita para nutrir e alegrar o seu cão! Benefícios:&- Intestino saudável;&- Reduz o odor das fezes;&- Proteínas de alta qualidade;&- Pelagem mais macia e brilhante.&&Nutrilus garante você e seu pet satisfeitos: a nutrição dos cães e gatos e satisfação dos tutores são nossos maiores objetivos. Por isso, oferecemos o programa garantia de satisfação. Para saber mais, entre em contato pelo telefone 3003-5052 ou pelo e-mail contato@nutrilus.com.br, disponível de segunda a sexta das 9h às 17h. Para mais informações acesse: www.nutrilus.com.br."
+                },
+                {
+                    "id": 9,
+                    "nome": "Ração Seca Nutrilus Prime Frango para Cães Adultos de Raças Pequenas",
+                    "img": "https://www.petlove.com.br/images/products/250929/product/2697116_Nutrilus-Prime-Ra%C3%A7as-Pequenas.jpg?1636403534",
+                    "preco": 198.58,
+                    "descricao": "A Ração Seca Nutrilus Prime Frango para Cães Adultos de Raças Pequenas é uma linha de alimentos Super Premium cientificamente desenvolvida para proporcionar ao seu cão uma nutrição de alta qualidade. Cada fórmula fornece o nível ideal de vitaminas, minerais, fibras, prebióticos e todos os nutrientes essenciais necessários para a saúde do pet, além de um ótimo desempenho em performance e saciedade.&&Nutrilus garante você e seu pet satisfeitos: a nutrição dos cães e gatos e satisfação dos tutores são nossos maiores objetivos. Por isso, oferecemos o programa garantia de satisfação. Para saber mais, entre em contato pelo telefone 3003-5052 ou pelo e-mail contato@nutrilus.com.br, disponível de segunda a sexta das 9h às 17h. Para mais informações acesse: www.nutrilus.com.br."
+                }
+            ],
+            "acessoriosAlimentacao": [
+                {
+                    "id": 10,
+                    "nome": "Comedouro e Bebedouro Duplo em Inox com Suporte",
+                    "img": "https://www.petlove.com.br/images/products/187462/product/31010152.jpg?1627607228",
+                    "preco": 54.89,
+                    "descricao": "O Comedouro Duplo Inox com Suporte é uma ótima opção para o seu cão. Vasilhas de inox são bonitas, duram por mais tempo, são resistentes a mordidas e muito fáceis para lavar e desinfetar. Como não possuem poros, as bactérias não se alojam nas paredes, evitando assim problemas com contaminações. Água quente e detergente são suficientes para uma perfeita higienização."
+                },
+                {
+                    "id": 11,
+                    "nome": "Tigela Chalesco de Inox",
+                    "img": "https://www.petlove.com.br/images/products/249307/product/Tigela_Chalesco_de_Inox__-_1_4_Litros_2727553_2.jpg?1634767252",
+                    "preco": 10.89,
+                    "descricao": "A Tigela Chalesco de Inox pode ser utilizada para comedouro ou bebedouro. Considerando a importância em oferecer ao seu animal de estimação alimentos de qualidade e mais frescos da maneira mais livre possível de resíduos a Chalesco desenvolveu este alimentador em inox."
+                },
+                {
+                    "id": 12,
+                    "nome": "Comedouro Chalesco Inox Antiderrapante",
+                    "img": "https://www.petlove.com.br/images/products/185942/product/31010137.jpg?1627603254",
+                    "preco": 16.50,
+                    "descricao": "O Comedouro Chalesco Inox Antiderrapante é antiferrugem, proporcionando maior durabilidade ao produto. Considerando a importância em oferecer ao seu animal de estimação alimentos da maneira mais livre possível de resíduos a Chalesco desenvolveu este alimentador em inox. Comedouro antiderrapante oferece muita praticidade e higiene."
+                },
+                {
+                    "id": 13,
+                    "nome": "Porta Ração Petlove Preto - 15 Kg",
+                    "img": "https://www.petlove.com.br/images/products/223802/product/Porta-Ra%C3%A7%C3%A3o_Petlove_para_Armazenar_at%C3%A9_15_Kg_-_Preto_1712069.jpg?1627717301",
+                    "preco": 89.90,
+                    "descricao": "A melhor maneira de manter a ração fresca é colocando em um recipiente fechado. O Porta Ração Petlove Preto - 15 Kg é uma ótima opção para quem guarda grandes quantias por longos períodos. Além de proteger contra insetos e roedores, propicia um ambiente melhor para manter a ração fresca por mais tempo, pois acondiciona a ração em um recipiente fechado sem a interferência de luz, evitando, assim, a perda de proteínas e nutrientes presentes na ração."
+                },
+                {
+                    "id": 14,
+                    "nome": "Comedouro NF Pet Pesado em Alumínio",
+                    "img": "https://www.petlove.com.br/images/products/200393/product/Comedouro_NF_Pet_Pesado_em_Alum%C3%ADnio_1744948_M.jpg?1627643713",
+                    "preco": 16.90,
+                    "descricao": "O Comedouro NF Pet Pesado em Alumínio, elaborado em alumínio, cimento e areia, evita que os pets saiam arrastando o comedouro pela casa."
+                },
+                {
+                    "id": 15,
+                    "nome": "Comedouro The Pets Brasil Inox Patas Relevo para Cães",
+                    "img": "https://www.petlove.com.br/images/products/200127/product/Comedouro_The_Pets_Brasil_Inox_Patas_Relevo_para_C%C3%A3es_1963346.jpg?1627642695",
+                    "preco": 13.90,
+                    "descricao": "Elaborado em aço inox, o Comedouro The Pets Brasil Inox Patas Relevo para Cães é super resistente e durável. Os detalhes de patas em relevo nas laterais dá um charme especial ao produto."
+                },
+                {
+                    "id": 16,
+                    "nome": "Comedouro Ajustável NF Pet Sistema Antiformiga",
+                    "img": "https://www.petlove.com.br/images/products/192953/product/54_c%C3%B3pia.jpg?1627620206",
+                    "preco": 84.90,
+                    "descricao": "O Comedouro Ajustável NF Pet Sistema Antiformiga é uma ótima opção para colocar água e alimento para o seu pet. Possui um sistema para adicionar líquido, evitando que a formiga contamine a ração do seu amigo. Com 02 recipientes, pode servir água e ração ao mesmo tempo."
+                },
+                {
+                    "id": 17,
+                    "nome": "Comedouro Interativo Pet Games Mini Lento Pet Fit Vermelho",
+                    "img": "https://www.petlove.com.br/images/products/213659/product/Comedouro_Interativo_Pet_Games_Mini_Lento_PetFit_-_Vermelho_3105856_1.jpg?1627685863",
+                    "preco": 31.22,
+                    "descricao": "O Comedouro Interativo Pet Games Mini Lento Pet Fit Vermelho foi especialmente desenvolvido para os cães que vão com muita sede ao pote, é a opção certa para tornar a alimentação do seu cãozinho mais agradável e prazerosa. Produzido para uma alimentação mais lenta e interativa, fazendo com que seu pet se alimente na quantia certa e de forma devagar, desenvolvendo também sua parte física e mental. É atóxico, lavável e super resistente."
+                },
+                {
+                    "id": 18,
+                    "nome": "Comedouro NF Pet Aramado Simples em Alumínio",
+                    "img": "https://www.petlove.com.br/images/products/199774/product/Comedouro_NF_Pet_Aramado_Simples_em_Alum%C3%ADnio_-_Tam.M_1954132_1.jpg?1627641605",
+                    "preco": 41.90,
+                    "descricao": "Moderno, o Comedouro NF Pet Aramado Simples em Alumínio é uma ótima opção para alimentar seu pet. Com suporte que vai deixar o comedouro longe do chão, proporcionando mais higiene e qualidade. Prático, a tigela pode ser retirada, o que facilita na higienização."
+                },
+                {
+                    "id": 19,
+                    "nome": "Bebedouro Chalesco com Suporte e Comedouro Azul",
+                    "img": "https://www.petlove.com.br/images/products/171582/product/0000000036183_2.jpg?1627565429",
+                    "preco": 142.89,
+                    "descricao": "Com o Bebedouro Chalesco com Suporte e Comedouro Azul seu amado cachorro terá as melhores condições para alimentar-se de uma forma mais confortável. O recipiente armazena a comida com segurança, não permitindo que a ração ou água sejam misturadas.&*Imagem meramente ilustrativa, podendo haver modificações nos tons das cores."
+                }
+            ],
+            "brinquedos": [
+                {
+                    "id": 20,
+                    "nome": "Brinquedo Chalesco Pelúcia Macaco",
+                    "img": "https://www.petlove.com.br/images/products/87805/product/70361.jpg?1627502005",
+                    "preco": 31.00,
+                    "descricao": "Com o Brinquedo Chalesco Pelúcia Macaco com as brincadeiras do seu pet serão mais divertidas. Uma ótima opção para livrar seu cão da ansiedade e do tédio."
+                },
+                {
+                    "id": 21,
+                    "nome": "Brinquedo Pet Games Jogo Interativo RedonDog",
+                    "img": "https://www.petlove.com.br/images/products/212637/product/Brinquedo_Pet_Games_Jogo_Interativo_Redon_Dog_1192243.jpg?1627682890",
+                    "preco": 38.90,
+                    "descricao": "O Brinquedo Pet Games Jogo Interativo RedonDog foi desenvolvido para estimular o animal a conseguir sua comida enquanto se exercita e brinca, proporciona horas de diversão. O Redon Dog libera ração ou petiscos aos poucos conforme o pet movimenta o comedouro-brinquedo com a boca, o focinho e as patas."
+                },
+                {
+                    "id": 22,
+                    "nome": "Brinquedo Chalesco Cachorro de Pelúcia",
+                    "img": "https://www.petlove.com.br/images/products/210926/product/Brinquedo_Chalesco_Cachorro_de_Pel%C3%BAcia_310127_1.jpg?1627676458",
+                    "preco": 24.99,
+                    "descricao": "Com o Brinquedo Chalesco Cachorro de Pelúcia as brincadeiras do seu pet serão mais divertidas. Uma ótima opção para livrar seu cão da ansiedade e do tédio.&&*Imagem meramente ilustrativa"
+                },
+                {
+                    "id": 23,
+                    "nome": "Brinquedo Furacão Pet Dental Bone Algodão com Nó",
+                    "img": "https://www.petlove.com.br/images/products/186132/product/3100921.jpg?1627604002",
+                    "preco": 5.34,
+                    "descricao": "O Brinquedo Furacão Pet Dental Bone Algodão com Nó foi confeccionado em material de alta qualidade e durabilidade, ajuda a combater o tártaro nos dentes dos cães. Seu pet vai estar sempre ativo de forma saudável e divertida!"
+                },
+                {
+                    "id": 24,
+                    "nome": "Brinquedo American Pets Bolinha Inteligente",
+                    "img": "https://www.petlove.com.br/images/products/141208/product/Bolinha.jpg?1627517990",
+                    "preco": 24.09,
+                    "descricao": "Com o Brinquedo American Pets Bolinha Inteligente seu pet vai ficar entretido, além de praticar atividades que auxiliam em seu desenvolvimento e disciplina."
+                },
+                {
+                    "id": 25,
+                    "nome": "Brinquedo Sonoro The Pets Brasil Frango Gritador",
+                    "img": "https://www.petlove.com.br/images/products/200114/product/Brinquedo_Sonoro_The_Pets_Brasil_Frango_Gritador_1962761.jpg?1627642631",
+                    "preco": 7.50,
+                    "descricao": "O Brinquedo Sonoro The Pets Brasil Frango Gritador é flexível, macio, leve, perfeito para a brincadeira do seu pet. Fácil de ser levado e jogado de um lado para o outro, contribui para o desenvolvimento das habilidades naturais do seu cão, além de diminuir a ansiedade e o estresse, evitando a depressão, principalmente se ficar um período sozinho faz parte da rotina do seu peludinho."
+                },
+                {
+                    "id": 26,
+                    "nome": "Brinquedo Chalesco Pelúcia Octopus",
+                    "img": "https://www.petlove.com.br/images/products/211781/product/Brinquedo_Chalesco_Pel%C3%BAcia_Octopus_31020114_1.jpg?1627679543",
+                    "preco": 30.99,
+                    "descricao": "O Brinquedo Chalesco Pelúcia Octopus é leve, ótimo para seu pet levar de um lado para o outro, sacudir, jogar. Além do seu amiguinho ficar longe da solidão e monotonia vai deixar as brincadeiras mais divertidas."
+                },
+                {
+                    "id": 27,
+                    "nome": "Brinquedo Osso Plaque Ataque Borracha com Cravo Vermelho",
+                    "img": "https://www.petlove.com.br/images/products/219377/product/Brinquedo_Osso_Plaque_Ataque_Borracha_com_Cravo_Vermelho_3101617.jpg?1627702406",
+                    "preco": 2.90,
+                    "descricao": "O Brinquedo Osso Plaque Ataque Borracha com Cravo Vermelho é ideal para os momentos de diversão do seu pet. Totalmente atóxico, vai manter seu cachorro entretido além de contribuir para o desenvolvimento das suas habilidades físicas e mentais."
+                },
+                {
+                    "id": 28,
+                    "nome": "Brinquedo Buddy Toys Graveto Nylon",
+                    "img": "https://www.petlove.com.br/images/products/242944/product/3108608_Brinquedo_Buddy_Toys_Graveto_Nylon_3.jpg?1628541748",
+                    "preco": 47.90,
+                    "descricao": "O Brinquedo Buddy Toys Graveto Nylon é indicado para cães de todos os portes. Produzido com composto de Nylon atóxico é resistente e durável. Um modelo que ajuda diminuir a vontade natural que os cães tem de destruir e roer objetos Possui ranhuras que imitam gravetos. Além de auxiliar na higiene bucal do seu amiguinho."
+                },
+                {
+                    "id": 29,
+                    "nome": "Brinquedo Interativo KONG Classic com Dispenser para Ração ou Petisco - Vermelho",
+                    "img": "https://www.petlove.com.br/images/products/222338/product/Brinquedo_Interativo_KONG_Classic_com_Dispenser_para_Ra%C3%A7%C3%A3o_ou_Petisco_-_Vermelho_3105063_1.jpg?1627711549",
+                    "preco": 110.32,
+                    "descricao": "- O Kong Classic com dispenser é feito de borracha natural.&- Disponível na cor vermelha.&- Pode ser mordido pelo cão sem causar danos à sua saúde/ dentição.&- Não pode ser ingerido.&- Estimula a cognição e instintos dos cachorros.&- Não é 100% indestrutível.&- Desperta curiosidade, evita ócio e estresse.&- Requer monitoramento durante o uso."
+                }
+            ],
+            "banhoETosa": [
+                {
+                    "id": 30,
+                    "nome": "Shampoo Me.au Pet 5 em 1 para Cães e Gatos",
+                    "img": "https://www.petlove.com.br/images/products/252465/product/_0004_7898104098909_1.jpg?1645559465",
+                    "preco": 11.61,
+                    "descricao": "O Shampoo Me.au Pet 5 em 1 para Cães e Gatos é indicado para cães e gatos de todos os portes e todas as idades, além de ser 5 em 1, pois ele hidrata, limpa, condiciona, nutre e revitaliza os pelos do seu melhor amigo. Com uma maravilhosa fragrância de bebê que não prejudica o olfato do seu pet."
+                },
+                {
+                    "id": 31,
+                    "nome": "Colônia Me.Au Pet Cheirinho de Bebê para Cães e Gatos",
+                    "img": "https://www.petlove.com.br/images/products/252467/product/_0002_7898104098916_1.jpg?1645559509",
+                    "preco": 11.61,
+                    "descricao": "A Colônia Me.Au Pet Cheirinho de Bebê para Cães e Gatos é indicado para cães e gatos de todos os portes e de todas as idades superiores a 4 semanas. Conta com uma fragrância de bebê super suave, prolongando o efeito do banho e reduzindo odores naturais do pet. Seu amiguinho ficará mais cheirosinho por muito mais tempo."
+                },
+                {
+                    "id": 32,
+                    "nome": "Banho a Seco Me.Au Pet para Cães e Gatos",
+                    "img": "https://www.petlove.com.br/images/products/252473/product/_0006_7898104098930_1.jpg?1645559724",
+                    "preco": 14.31,
+                    "descricao": "O Banho a Seco Me.Au Pet para Cães e Gatos possui uma fórmula suave que garante limpeza e suavidade, e tudo isso sem usar água e sem prejudicar ou agredir a saúde do seu amigo. Especialmente elaborado para higienização dos pets principalmente daqueles que dormem com seus donos, ou até mesmo naqueles dias de frio ou de chuva em que os pets não tomam banho."
+                },
+                {
+                    "id": 33,
+                    "nome": "Shampoo Pet Clean 5 em 1 para Cães e Gatos - 700 mL",
+                    "img": "https://www.petlove.com.br/images/products/249670/product/Shampoo_Pet_Clean_5_em_1_para_C%C3%A3es_e_Gatos_-_700_mL_1196663_181.jpg?1635256027",
+                    "preco": 10.42,
+                    "descricao": "O Shampoo Pet Clean 5 em 1 para Cães e Gatos é indicado para cachorros e gatos de todas as idades, raças, cores e comprimento de pelos. Desenvolvido para fazer a limpeza nos pelos e proporcionar uma maior maciez e brilho na pelagem do animal. Com uma formulação especial, forma uma película hidratante na pelagem do animal que o protege por muito mais tempo, pois contém silicone."
+                },
+                {
+                    "id": 34,
+                    "nome": "Hydra Fluido Desembaraçador Pet Society Super Premium",
+                    "img": "https://www.petlove.com.br/images/products/202597/product/Hydra_Fluido_Desembara%C3%A7ador_Pet_Society_Super_Premium_-_240_mL_31016350.jpg?1627650303",
+                    "preco": 38.50,
+                    "descricao": "A linha Super Premium foi desenvolvida para os tutores que valorizam os melhores resultados nos cuidados de higiene do seu pet em casa. O Hydra Fluido Desembaraçador Pet Society Super Premium auxilia no desembaraço de pelos e remoção de nós e também também usado na manutenção de animais com a pelagem densa, facilitando o trabalho de higiene e limpeza em casa. Com o uso do Hydra Fluído Desembaraçador os pelos do seu pet ficarão muito mais macios e brilhosos e fáceis de escovar. Sua fórmula não contém silicone, o que evita a aparência oleosa engordurada da pelagem do seu amiguinho Contém D- Pantenol. Indicado para cães e gatos com pelagem longa ou densa."
+                },
+                {
+                    "id": 35,
+                    "nome": "Perfume Pet Clean Fêmea para Cães e Gatos",
+                    "img": "https://www.petlove.com.br/images/products/249704/product/Perfume_Pet_Clean_C%C3%A3es_e_Gatos_1200139_146.jpg?1635257115",
+                    "preco": 14.00,
+                    "descricao": "O Perfume Pet Clean Cães e Gatos foi desenvolvido para deixar seu pet com um agradável perfume, sem agredir a saúde. Sua fórmula inovadora não afeta o olfato do querido amigão."
+                },
+                {
+                    "id": 36,
+                    "nome": "Hidratante de Patinhas Pet Clean Coxins para Cães",
+                    "img": "https://www.petlove.com.br/images/products/249860/product/Hidratante_de_Patinhas_Pet_Clean_Coxins_para_C%C3%A3es_-_150_g_2509373_8.jpg?1635265481",
+                    "preco": 24.90,
+                    "descricao": "O Hidratante de Patinhas Pet Clean Coxins para Cães foi elaborado especialmente para cães com o propósito de hidratar, restaurar e prevenir rachaduras e ressecamentos nas suas delicadas patinhas. Formulado com matérias primas selecionadas e especiais, proporciona uma maciez incrível nos coxins dos pets."
+                },
+                {
+                    "id": 37,
+                    "nome": "Shampoo e Condicionador Pet Clean Natural 2 em 1",
+                    "img": "https://www.petlove.com.br/images/products/198410/product/Shampoo_e_Condicionador_Pet_Clean_2_em_1_-_700_mL.jpg?1627637279",
+                    "preco": 14.00,
+                    "descricao": "O Shampoo e Condicionador Pet Clean Natural 2 em 1, é um produto indicado para cães e gatos de todas as raças, idades e comprimentos de pelos. Com sua formulação balanceada deixa os pelos mais macios, brilhantes e perfumados sem agressão aos olhos e pele do animal. Produto biodegradável de pH neutro."
+                },
+                {
+                    "id": 38,
+                    "nome": "Shampoo Sanol Dog Antipulgas para Cães",
+                    "img": "https://www.petlove.com.br/images/products/224783/product/Shampoo_Sanol_Dog_Antipulgas_-_500_mL_3103184.jpg?1627720812",
+                    "preco": 18.51,
+                    "descricao": "O Shampoo Sanol Dog Antipulgas para Cães é um produto que protege, tonifica, hidrata e revitaliza os pelos do seu cão. E principalmente ajuda na remoção e controle das pulgas. Para evitar a reinfestação e controlar efetivamente as pulgas, é importante tratar também o ambiente onde vivem os cães, usando produtos adequados para este fim."
+                },
+                {
+                    "id": 39,
+                    "nome": "Banho a Seco Pet Society Fast Shower",
+                    "img": "https://www.petlove.com.br/images/products/190172/product/Banho_a_Seco_Pet_Society_Fast_Shower_3109180-1.jpg?1627613796",
+                    "preco": 42.40,
+                    "descricao": "A linha Super Premium foi desenvolvida para os tutores que valorizam os melhores resultados nos cuidados de higiene do seu pet em casa. O Banho a Seco Pet Society Fast Shower promove profunda limpeza sem utilização de água e com muita praticidade. Seus ativos eliminam os odores indesejáveis, remove sujidades e proporciona brilho maciez."
+                }
+            ]
+        }
+    ]
+}
