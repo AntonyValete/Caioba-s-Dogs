@@ -46,22 +46,43 @@
     </header>
     <main>
         <h1>Suas Compras</h1>
-        <div>
-            <div>
-                <p>Produto</p><p>Quantidade</p><p>Preço</p>
+        <section class="container d-flex flex-wrap">
+            <div class="p-2 me-auto" id="produtos">
+                <div class="row">
+                    <p class="col-8">Produto</p>
+                    <p class="col-2">Quantidade</p>
+                    <p class="col">Preço</p>
+                    <p class="col"></p>
+                </div>
+                <!-- <template> -->
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-8 d-flex flex-row justify-content-left align-items-center produtos">
+                            <img
+                                src="https://www.petlove.com.br/images/products/250507/large/2492303_FRENTE.jpg?1635780028">
+                            <p>Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos</p>
+                        </div>
+                        <div class="d-flex flex-row col-2 align-items-center" id="addRemove">
+                            <input type="image" src="./assets/imgs/icons/icons8-divisa-circulada-à-esquerda-64.png"
+                                onclick="adicionar('remove')">
+                            <input type="number" value="1" disabled />
+                            <input type="image" src="./assets/imgs/icons/icons8-divisa-circulada-à-direita-64.png"
+                                onclick="adicionar('add')">
+                        </div>
+                        <p class="col" style="padding-right: 11px;margin: 0;">R$ 299.99</p>
+                        <img src="assets/imgs/icons/icons8-lixo-32.png" class="" id="remove">
+                    </div>
+                <!-- </template> -->
             </div>
-            <div>
-                <img src="" alt=""><label for=""></label> 
-            </div>
-        </div>
 
-        <div>
-            <h6>Resumo do Pedido</h6>
-            <p>Produtos</p>
-            <p>Frete</p>
-            <h5>Subtotal</h5>
-            <input type="button">
-        </div>
+
+            <div class="d-flex flex-column p-2" id="resumo">
+                <h6>Resumo do Pedido</h6>
+                <p>Produtos</p>
+                <p>Frete</p>
+                <h5>Subtotal</h5>
+                <input type="button">
+            </div>
+        </section>
     </main>
     <footer>
         <section>
