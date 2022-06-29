@@ -93,52 +93,58 @@ label {
 
 }
 
-#produtos {
-    width: 700px;
+.carrosel {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    /* margin: 50px auto; */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
 }
 
-#resumo {
-    width: 300px;
+.carrosel ul {
+    display: flex;
+    list-style: none;
+    width: 2400px;
+    height: 500px;
 }
 
-#remove {
-    padding: 0;
-    height: 25px;
-    width: 25px;
-    cursor: pointer;
+.carrosel li {
+    position: relative;
+    animation: slide 15s infinite ease-out;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0;
+@keyframes slide {
+    0% {
+        left: 0px
+    }
+
+    20% {
+        left: 0px;
+    }
+
+    30% {
+        left: -800px
+    }
+
+    50% {
+        left: -800px
+    }
+
+
+    60% {
+        left: -1600px
+    }
+
+    90% {
+        left: -1600px
+    }
+
+    100% {
+        left: 0px;
+    }
 }
 
-#addRemove {
-    padding-left: 18.1px;
-}
-#addRemove input[type=number]{
-    text-align: center;
-    width: 30px;
-    background: none;
-    border: none;
-}
-
-#addRemove input[type=image] {
-    width: 20px;
-    height: 20px;
-    background: none;
-    border: none;
-}
-
-.produtos img {
-    height: 90px;
-}
-
-.produtos {
-    padding-left: 0;
-}
-
-main {
-    min-height: 367px;
+.imagens {
+    width: 800px;
+    height: 500px;
 }
