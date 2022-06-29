@@ -21,7 +21,7 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar bg-light">
+        <nav class="navbar" id="menu">
             <div class="container">
                 <a class="navbar-brand me-auto p-2" href="./index.html">
                     <img src="./assets/imgs/icons/LOGO CAIOBA'S.png" alt="" width="145" height="145"
@@ -46,56 +46,9 @@
     <!-- HEADER -->
 
     <!-- MAIN -->
-    <main class="container">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner" style="height: 20em">
-                <div class="carousel-item active"
-                    style="background-image: url(./assets/imgs/icons/Ração.png); background-size: contain; background-repeat: no-repeat; background-position: center;">
-                    <img src="https://tudosobrecachorros.com.br/wp-content/uploads/cachorros-fofos-13-1024x768.jpg"
-                        class="d-block w-40" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://tudosobrecachorros.com.br/wp-content/uploads/cachorros-fofos-13-1024x768.jpg"
-                        class="w-40" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://tudosobrecachorros.com.br/wp-content/uploads/cachorros-fofos-13-1024x768.jpg"
-                        class=" w-40" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    <main>
 
-        <!-- <template> -->
+        <!-- <template>
             <div class="card" style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
@@ -104,13 +57,79 @@
                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
                 </div>
             </div>
-        <!-- </template> -->
+        </template> -->
+
+        <section>
+            <div id="categorias">
+                <h6>Categorias</h6>
+                <div id="teste">
+                    <label for="">Banho e Tosa <input type="checkbox"></label>
+                    <label for="">Brinquedos <input type="checkbox"></label>
+                    <label for="">Acessorios <input type="checkbox"></label>
+                    <label for="">Rações <input type="checkbox"></label>
+                </div>
+            </div>
 
 
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators" class="w-80">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://tudosobrecachorros.com.br/wp-content/uploads/cachorros-fofos-13-1024x768.jpg"
+                            class="w-80" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://tudosobrecachorros.com.br/wp-content/uploads/cachorros-fofos-13-1024x768.jpg"
+                            class="w-80" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://tudosobrecachorros.com.br/wp-content/uploads/cachorros-fofos-13-1024x768.jpg"
+                            class="w-80" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev" class="w-80">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next" class="w-80">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+
+
+
+        </section>
+
+
+        <section>
+            <form action="" class="d-flex flex-column mb-3 align-items-center">
+                <h4>NEWSLETTER</h4>
+                <p>Receba ofertas e descontos exclusivos para o seu Doguinho via inbox!</p>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Digite seu email">
+                    <button type="submit">inscreva-se</button>
+                </div>
+            </form>
+        </section>
 
     </main>
     <!-- MAIN -->
-        
+
     <!-- FOOTER -->
     <footer>
         <section>
@@ -136,15 +155,6 @@
                     <a href="">Lista de Desejos</a>
                     <a href="">Carrinho de Compras </a>
                 </div>
-                <form action="" class="d-flex flex-column mb-3 align-items-center">
-                    <h4>NEWSLETTER</h4>
-                    <p>Receba ofertas e descontos exclusivos via inbox!</p>
-                    <div class="input-group mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Digite seu email">
-                        <button type="submit">inscreva-se</button>
-                    </div>
-                </form>
             </div>
         </section>
         <div class="text-center">@CAIOBA'S DOGS 2022</div>
