@@ -33,13 +33,11 @@
                     <button type="submit">Pesquisar</button>
                 </form>
                 <a href="./Carrinho.html" class="p-2">
-                    <img src="./assets/imgs/icons/icons8-bolsa-de-cachorro-96.png" alt="" width="48" height="48"
-                        class="d-inline-block align-text-top">
-                </a>
-                <a href="./login.html" class="p-2">
-                    <img src="./assets/imgs/icons/icons8-casinha-de-cachorro-96.png" alt="" width="48" height="48"
-                        class="d-inline-block align-text-top">
-                </a>
+                    <img src="assets/imgs/icons/icons8-bolsa-de-cachorro-96.png" alt="" width="48" height="48">
+                    <a href="./login.html" class="p-2">
+                        <img src="./assets/imgs/icons/icons8-casinha-de-cachorro-96.png" alt="" width="48" height="48"
+                            class="d-inline-block align-text-top">
+                    </a>
             </div>
         </nav>
     </header>
@@ -47,30 +45,7 @@
 
     <!-- MAIN -->
     <main>
-
-        <!-- <template>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">R$ 199.90</p>
-                   <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
-                </div>
-            </div>
-        </template> -->
-
-        <section>
-            <div id="categorias">
-                <h6>Categorias</h6>
-                <div id="teste">
-                    <label for="">Banho e Tosa <input type="checkbox"></label>
-                    <label for="">Brinquedos <input type="checkbox"></label>
-                    <label for="">Acessorios <input type="checkbox"></label>
-                    <label for="">Rações <input type="checkbox"></label>
-                </div>
-            </div>
-
-
+        <section id="pt-1">
             <div class="carrosel">
                 <ul>
                     <li>
@@ -86,15 +61,68 @@
                     </li>
                 </ul>
             </div>
+        </section>
 
-
-
-
+        <section id="pt-2" class="d-flex flex-row">
+            <template id="cardDeProduto">
+                <div class="fil">
+                    <div class="card">
+                        <h2>Produto 1</h2>
+                        <p>Produto 1</p>
+                        <img src="ração pra dog.webp" class="img">
+                    </div>
+                </div>
+            </template>
+            <div id="categorias">
+                <h6>Categorias</h6>
+                <div id="teste">
+                    <label for="">Banho e Tosa <input type="checkbox"></label>
+                    <label for="">Brinquedos <input type="checkbox"></label>
+                    <label for="">Acessorios <input type="checkbox"></label>
+                    <label for="">Rações <input type="checkbox"></label>
+                </div>
+            </div>
+            <div>
+                <p class="title">produtos para o seu doguinho <br> :p</p>
+                <div id="listaDeProdutos" class="container d-flex flex-row flex-wrap justify-content-between"></div>
+            </div>
 
         </section>
 
+        <section id="pt-3">
+            <div class="carrosel2">
+                <ul>
+                    <li>
+                        <img src="./assets/imgs/fotos/Leia1.jpeg" class="imagens2">
+                    </li>
 
-        <section>
+                    <li>
+                        <img src="./assets/imgs/fotos/Leia2.jpeg" class="imagens2">
+                    </li>
+
+                    <li>
+                        <img src="./assets/imgs/fotos/Luke3.jpeg" class="imagens2">
+                    </li>
+
+                    <li>
+                        <img src="./assets/imgs/fotos/LukeLeia4.jpeg" class="imagens2">
+                    </li>
+                </ul>
+            </div>
+
+            <div id="area-descontos">
+                <div>
+                    <h4>10% DE DESCONTO EM SUAS COMPRAS</h4>
+
+                    <h3>INSIRA O CUPOM:</h3>
+                    <div id="cupom">
+                        <p>LEIA10</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pt-4">
             <form action="" class="d-flex flex-column mb-3 align-items-center">
                 <h4>NEWSLETTER</h4>
                 <p>Receba ofertas e descontos exclusivos para o seu Doguinho via inbox!</p>
@@ -105,7 +133,6 @@
                 </div>
             </form>
         </section>
-
     </main>
     <!-- MAIN -->
 
