@@ -1,0 +1,49 @@
+#produtos {
+    width: 700px;
+}
+
+#resumo {
+    width: 300px;
+}
+
+#remove {
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+#addRemove {
+    padding-left: 18.1px;
+}
+#addRemove input[type=number]{
+    text-align: center;
+    width: 30px;
+    background: none;
+    border: none;
+}
+
+#addRemove input[type=image] {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+}
+
+.produtos img {
+    height: 90px;
+}
+
+.produtos {
+    padding-left: 0;
+}
+
+main {
+    min-height: 367px;
+}
