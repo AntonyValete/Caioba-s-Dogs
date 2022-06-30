@@ -1,21 +1,7 @@
-body {
-    background-color: #181f27;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 23px;
-    overflow: hidden;
-}
-
-.area-login {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-
 .login {
     background-color: #181920;
     width: 355px;
-    height: 320px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,14 +21,23 @@ body {
     height: 30px;
     outline: none;
     padding-left: 10px;
-    font-family: 'VT323', monospace;
+    font-family: 'Indie Flower', cursive;
     font-size: 20px;
 }
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .login h1 {
     color: #f25;
     text-shadow: 4px 4px 0px black;
     font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
 }
 
 input::placeholder {
@@ -66,8 +61,17 @@ button {
     background: #4e4e53;
     color: #c8d0f7;
     border: none;
-    font-family: 'VT323', monospace;
+    font-family: 'Indie Flower', cursive;
+    ;
     font-size: 20px;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
+}
+
+a {
+    color: #000000;
+}
+
+.acc {
+    color: wheat;
 }
