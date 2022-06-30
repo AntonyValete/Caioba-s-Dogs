@@ -9,7 +9,6 @@ main {
 
 #menu {
     background-color: #ffb65d;
-
 }
 
 form {
@@ -66,24 +65,38 @@ h1 {
     border: none;
 }
 
+#pt-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
 #categorias {
     background-color: #36BBD9;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     border-style: solid;
     border-width: 2px;
     border-color: #F2913D;
-    border-radius: 10%;
-    width: 9%;
+    border-radius: 10px;
+    width: 30%;
     padding: 1%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+#categorias h6 {
+    font-size: 40px;
 }
 
 #teste {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 30%;
+    font-size: 30px;
 
 }
 
@@ -123,20 +136,20 @@ label {
     }
 
     30% {
-        left: -800px
+        left: -600px
     }
 
     50% {
-        left: -800px
+        left: -600px
     }
 
 
     60% {
-        left: -1600px
+        left: -1800px
     }
 
     90% {
-        left: -1600px
+        left: -1800px
     }
 
     100% {
@@ -144,7 +157,113 @@ label {
     }
 }
 
-.imagens {
-    width: 800px;
-    height: 500px;
+#pt-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.imagens2 {
+    width: 600px;
+    height: 900px;
+}
+
+.carrosel2 {
+    width: 600px;
+    height: 900px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.carrosel2 ul {
+    display: flex;
+    list-style: none;
+    width: 1800px;
+    height: 900px;
+}
+
+.carrosel2 li {
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
+
+
+.imagens {
+    width: 900px;
+    height: 600px;
+}
+
+#pt-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f4f4f4;
+}
+
+.fil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 310px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(29, 29, 29, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    border-left: 3px solid #ff0000;
+    display: inline-block;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card p {
+    color: #8e9099;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.img {
+    float: right;
+    width: 120px;
+    height: 120px;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 15px;
+}
+
+.desconto {
+    color: #f25;
+    text-shadow: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+
+
+
+/* <--------------------------------------TESTE BOTÃO--------------------------------> */
+
+.botaocarrinho {
+    background-color: black;
+    color: white;
+}
+
+
+.cart-item {}
