@@ -61,7 +61,7 @@ function idItem(produto) {
     }
 }
 
-function usuarioQual() {
+function usuarioQualCarrinho() {
     if (localStorage.getItem('usuarios') == undefined) {
         window.location.href = "./login.html"
     } else {
@@ -69,6 +69,17 @@ function usuarioQual() {
         const urlParams = new URLSearchParams(queryString);
         const parametro = urlParams.get('usuario');
         window.location.href = `./carrinho.html?usuario=${parametro}`;
+    }
+}
+
+function usuarioQualIndex() {
+    if (localStorage.getItem('usuarios') == undefined) {
+        window.location.href = "./index.html"
+    } else {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const parametro = urlParams.get('usuario');
+        window.location.href = `./index.html?usuario=${parametro}`;
     }
 }
 

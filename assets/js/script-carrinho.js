@@ -6,6 +6,28 @@ function adicionar(which) {
         qtd.value = parseInt(qtd.value) - 1;
 }
 
+function usuarioQualIndex() {
+    if (localStorage.getItem('usuarios') == undefined) {
+        window.location.href = "./index.html"
+    } else {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const parametro = urlParams.get('usuario');
+        window.location.href = `./index.html?usuario=${parametro}`;
+    }
+}
+
+function usuarioQualCarrinho() {
+    if (localStorage.getItem('usuarios') == undefined) {
+        window.location.href = "./login.html"
+    } else {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const parametro = urlParams.get('usuario');
+        window.location.href = `./carrinho.html?usuario=${parametro}`;
+    }
+}
+
 async function carrinho() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
