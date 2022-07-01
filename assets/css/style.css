@@ -4,7 +4,8 @@ body {
 }
 
 main {
-    padding: 2%;
+    margin: 0%;
+    padding: 0%;
 }
 
 #menu {
@@ -65,10 +66,126 @@ h1 {
     border: none;
 }
 
+.partes {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
 #pt-1 {
     display: flex;
-    justify-content: space-between;
-    align-items: top;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -25%;
+}
+
+#radio3:checked~.first {
+    margin-left: -50%;
+}
+
+#radio4:checked~.first {
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 2px solid #36BBD9;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2 {
+    background-color: white;
+}
+
+#radio3:checked~.navigation-auto .auto-btn3 {
+    background-color: white;
+}
+
+#radio4:checked~.navigation-auto .auto-btn4 {
+    background-color: white;
+}
+
+
+.retrato {
+    object-fit: cover;
+    width: 800px;
+    height: 500px;
 }
 
 #categorias {
@@ -77,84 +194,42 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     border-style: solid;
     border-width: 2px;
-    border-color: #F2913D;
     border-radius: 10px;
-    width: 30%;
+    width: 15%;
     padding: 1%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 #categorias h6 {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #teste {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 30%;
-    font-size: 30px;
+    font-size: 15px;
 
 }
 
-label {
+#pt-2 {
     display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ffb65d;
+    padding: 2%;
+}
+
+#area-pt2 {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 
-}
-
-.carrosel {
-    width: 800px;
-    height: 500px;
-    overflow: hidden;
-    /* margin: 50px auto; */
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
-}
-
-.carrosel ul {
-    display: flex;
-    list-style: none;
-    width: 2400px;
-    height: 500px;
-}
-
-.carrosel li {
-    position: relative;
-    animation: slide 15s infinite ease-out;
-}
-
-@keyframes slide {
-    0% {
-        left: 0px
-    }
-
-    20% {
-        left: 0px;
-    }
-
-    30% {
-        left: -600px
-    }
-
-    50% {
-        left: -600px
-    }
-
-
-    60% {
-        left: -1800px
-    }
-
-    90% {
-        left: -1800px
-    }
-
-    100% {
-        left: 0px;
-    }
 }
 
 #pt-3 {
@@ -163,34 +238,125 @@ label {
     align-items: center;
 }
 
-.imagens2 {
-    width: 600px;
-    height: 900px;
-}
-
-.carrosel2 {
-    width: 600px;
-    height: 900px;
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
     overflow: hidden;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
 }
 
-.carrosel2 ul {
+.slides {
+    width: 400%;
+    height: 400px;
     display: flex;
-    list-style: none;
-    width: 1800px;
-    height: 900px;
 }
 
-.carrosel2 li {
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
     position: relative;
-    animation: slide 15s infinite ease-out;
+    transition: 2s;
+}
+
+.slide img2 {
+    width: 800px;
+
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio5:checked~.first {
+    margin-left: 0;
+}
+
+#radio6:checked~.first {
+    margin-left: -25%;
+}
+
+#radio7:checked~.first {
+    margin-left: -50%;
+}
+
+#radio8:checked~.first {
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 2px solid #36BBD9;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio5:checked~.navigation-auto .auto-btn5 {
+    background-color: white;
+}
+
+#radio6:checked~.navigation-auto .auto-btn6 {
+    background-color: white;
+}
+
+#radio7:checked~.navigation-auto .auto-btn7 {
+    background-color: white;
+}
+
+#radio8:checked~.navigation-auto .auto-btn8 {
+    background-color: white;
 }
 
 
-.imagens {
-    width: 900px;
-    height: 600px;
+#cupom {
+    color: #36BBD9;
+    border: #ffb65d;
+    border-style: dashed;
+    border-width: 4px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+#cupom h5 {
+    font-size: 80px;
 }
 
 #pt-4 {
@@ -198,6 +364,8 @@ label {
     justify-content: center;
     align-items: center;
 }
+
+
 
 body {
     font-family: 'Source Code Pro', monospace;
@@ -245,7 +413,6 @@ body {
     font-size: 30px;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
-    margin-top: 15px;
 }
 
 .desconto {
@@ -256,14 +423,9 @@ body {
 }
 
 
-
-
 /* <--------------------------------------TESTE BOTÃO--------------------------------> */
 
 .botaocarrinho {
     background-color: black;
     color: white;
 }
-
-
-.cart-item {}
