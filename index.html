@@ -20,22 +20,22 @@
 
 <body>
     <!-- HEADER -->
-    <header>
-        <nav class="navbar" id="menu">
+    <header class="menu">
+        <nav class="navbar">
             <div class="container">
                 <a class="navbar-brand me-auto p-2" href="./index.html">
-                    <img src="./assets/imgs/icons/LOGO CAIOBA'S.png" alt="" width="145" height="145"
+                    <img src="./assets/imgs/icons/LOGO CAIOBA'S.png"  alt="" width="145" height="145"
                         class="d-inline-block align-text-top">
                 </a>
                 <form class="d-flex p-2" role="search">
                     <input class="form-control me-2" type="search" placeholder="O que seu doguinho precisa?"
                         aria-label="Search">
-                    <button type="submit">Pesquisar</button>
+                    <button type="submit" class="botoes">Pesquisar</button>
                 </form>
-                <a href="./Carrinho.html" class="p-2">
-                    <img src="assets/imgs/icons/icons8-bolsa-de-cachorro-96.png" alt="" width="48" height="48">
+                <a class="p-2" onclick="usuarioQual()">
+                    <img src="assets/imgs/icons/icons8-bolsa-de-cachorro-96.png" alt="" width="48" height="48" >
                     <a href="./login.html" class="p-2">
-                        <img src="./assets/imgs/icons/icons8-casinha-de-cachorro-96.png" alt="" width="48" height="48"
+                        <img src="./assets/imgs/icons/icons8-casinha-de-cachorro-96.png" alt="" width="48" height="48" 
                             class="d-inline-block align-text-top">
                     </a>
             </div>
@@ -45,8 +45,52 @@
 
     <!-- MAIN -->
     <main>
-        <section id="pt-1" class="partes">
+        <!-- <section id="pt-1" class="partes">
+            <img src="assets/imgs/fotos/1656712577848.png" alt="" class="LogoMain">
+            <img src="assets/imgs/icons/" alt="">
+            <img src="" alt="">
+            <h3 id="recado">Cuidado, carinho e atenção para seu animal de estimação</h3>
+           
+        </section> -->
 
+        <section id="pt-2" class="partes">
+            <h1 class="title" class="titulos">Produtos para o seu Doguinho!</h1>
+            <div id="area-pt2">
+                <div id="categorias">
+                    <div>
+                        <h6 class="titulos">Categorias</h6>
+                    </div>
+                    <div id="teste">
+                        <label for="" class="d-flex justify-content-between align-items-center">Banho e Tosa <input
+                                type="checkbox" onchange="filtro('banhoETosa')"></label>
+                        <label for="" class="d-flex justify-content-between">Brinquedos <input type="checkbox"
+                                onchange="filtro('Brinquedos')"></label>
+                        <label for="" class="d-flex justify-content-between">Acessorios <input type="checkbox"
+                                onchange="filtro('Acessorios')"></label>
+                        <label for="" class="d-flex justify-content-between">Rações <input type="checkbox"
+                                onchange="filtro('Racoes')"></label>
+                    </div>
+                </div>
+                <div id="listaDeProdutos" class="container d-flex flex-row flex-wrap"></div>
+            </div>
+
+
+
+            <template id="cardDeProduto">
+                <div class="fil">
+                    <div class="card d-flex flex-column align-items-center justify-content-between">
+                        <h5 class="card-title">Produto 1</h5>
+                        <img src="ração pra dog.webp" class="img">
+                        <p class="card-text">R$ 99</p>
+                        <a onclick="idItem(this.parentElement.parentElement)" class="btn btn-primary">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+            </template>
+
+
+        </section>
+
+        <section id="pt-3" class="partes">
             <div class="slider">
 
                 <div class="slides" id="img">
@@ -56,19 +100,19 @@
                     <input type="radio" name="radio-btn" id="radio4">
 
                     <div class="slide first">
-                        <img src="./assets/imgs/icons/cachorro1.jpg" alt="" class="retrato">
+                        <img src="./assets/imgs/fotos/Foto1.jpeg" alt="" class="retrato">
                     </div>
 
                     <div class="slide">
-                        <img src="./assets/imgs/icons/Ração.png" alt="" class="retrato">
+                        <img src="./assets/imgs/fotos/Foto2.jpeg" alt="" class="retrato">
                     </div>
 
                     <div class="slide">
-                        <img src="./assets/imgs/icons/cachorro1.jpg" alt="" class="retrato">
+                        <img src="./assets/imgs/fotos/Foto3.jpeg" alt="" class="retrato">
                     </div>
 
                     <div class="slide">
-                        <img src="./assets/imgs/icons/LOGO CAIOBA'S.png" alt="" class="retrato">
+                        <img src="./assets/imgs/fotos/Foto4.jpeg" alt="" class="retrato">
                     </div>
 
 
@@ -88,85 +132,7 @@
                 </div>
 
             </div>
-        </section>
-
-        <section id="pt-2" class="partes">
-            <p class="title">Produtos para o seu Doguinho!</p>
-            <div #area-pt2>
-                <div id="listaDeProdutos" class="container d-flex flex-row flex-wrap justify-content-between">
-                    <div id="categorias">
-                        <div>
-                            <h6>Categorias</h6>
-                        </div>
-                        <div id="teste">
-                            <label for="">Banho e Tosa <input type="checkbox"></label>
-                            <label for="">Brinquedos <input type="checkbox"></label>
-                            <label for="">Acessorios <input type="checkbox"></label>
-                            <label for="">Rações <input type="checkbox"></label>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <template id="cardDeProduto">
-                <div class="fil">
-                    <div class="card">
-                        <h2>Produto 1</h2>
-                        <p>Produto 1</p>
-                        <img src="ração pra dog.webp" class="img">
-                    </div>
-                </div>
-            </template>
-
-
-        </section>
-
-        <section id="pt-3" class="partes">
-
-            <div class="slider">
-
-                <div class="slides" id="img2">
-                    <input type="radio" name="radio-btn" id="radio5">
-                    <input type="radio" name="radio-btn" id="radio6">
-                    <input type="radio" name="radio-btn" id="radio7">
-                    <input type="radio" name="radio-btn" id="radio8">
-
-                    <div class="slide first">
-                        <img src="./assets/imgs/icons/cachorro1.jpg" alt="" class="retrato">
-                    </div>
-
-                    <div class="slide">
-                        <img src="./assets/imgs/icons/Ração.png" alt="" class="retrato">
-                    </div>
-
-                    <div class="slide">
-                        <img src="./assets/imgs/icons/cachorro1.jpg" alt="" class="retrato">
-                    </div>
-
-                    <div class="slide">
-                        <img src="./assets/imgs/icons/cachorro1.jpg" alt="" class="retrato">
-                    </div>
-
-
-                    <div class="navigation-auto">
-                        <div class="auto-btn5"></div>
-                        <div class="auto-btn6"></div>
-                        <div class="auto-btn7"></div>
-                        <div class="auto-btn8"></div>
-                    </div>
-                </div>
-
-                <div class="manual-navigation">
-                    <label for="radio5" class="manual-btn"></label>
-                    <label for="radio6" class="manual-btn"></label>
-                    <label for="radio7" class="manual-btn"></label>
-                    <label for="radio8" class="manual-btn"></label>
-                </div>
-
-            </div>
+           
 
             <div id="area-descontos">
                 <div>
@@ -182,12 +148,12 @@
 
         <section id="pt-4" class="partes">
             <form action="" class="d-flex flex-column mb-3 align-items-center">
-                <h4>NEWSLETTER</h4>
+                <h4 class="titulos">NEWSLETTER</h4>
                 <p>Receba ofertas e descontos exclusivos para o seu Doguinho via inbox!</p>
                 <div class="input-group mb-3">
                     <input type="email" class="form-control" id="exampleFormControlInput1"
                         placeholder="Digite seu email">
-                    <button type="submit">inscreva-se</button>
+                    <button type="submit" class="botoes">inscreva-se</button>
                 </div>
             </form>
         </section>
@@ -196,16 +162,16 @@
 
     <!-- FOOTER -->
     <footer>
-        <section>
+        <section class="rodape">
             <div class="container d-flex flex-row justify-content-around">
                 <div class="d-flex flex-column mb-3">
-                    <h4>SUPORTE</h4>
+                    <h4 class="titulos">SUPORTE</h4>
                     <a href="">Contato para Ajuda e Suporte</a>
                     <a href="">Metodos de Envio</a>
                     <a href="">Política de Devolução</a>
                 </div>
                 <div class="d-flex flex-column mb-3">
-                    <h4>INFORMAÇÕES</h4>
+                    <h4 class="titulos">INFORMAÇÕES</h4>
                     <a href="">Sobre Nós</a>
                     <a href="">Termos e Serviços</a>
                     <a href="">Política e Privacidade</a>
@@ -213,7 +179,7 @@
                     <a href="">Política de Reembolso</a>
                 </div>
                 <div class="d-flex flex-column mb-3">
-                    <h4>CONTA</h4>
+                    <h4 class="titulos">CONTA</h4>
                     <a href="">Histórico de Pedidos </a>
                     <a href="">Endereços</a>
                     <a href="">Lista de Desejos</a>
@@ -228,6 +194,7 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/script-carrinho.js"></script> -->
 </body>
 
 </html>

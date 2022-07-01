@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -25,21 +25,23 @@
     <section class="area-login">
         <div class="login">
             <div>
-                <h1>BEM VINDO AO <BR></BR> CAIO DOG'S</h1>
+                <div class="area-image">
+                    <img src="./assets/imgs/icons/LOGO CAIOBA'S.png" width="115" height="115">
+                </div>
+                <h1>BEM VINDO DE VOLTA</h1>
             </div>
-
-            <!--<img src="dog bem vindo.png" class="img">-->
-
             <form>
-                <input type="text" name="nome" placeholder="nome de usuario" autofocus>
-                <input type="password" name="senha" placeholder="digite a senha">
-                <button type="button"><a href="home.html">entrar</a></button>
+                <input type="email" class="entrar" placeholder="Email do Usuário" autofocus required>
+                <input type="password" class="entrar" placeholder="Digite sua Senha" required>
+                <p class="acc">Não possuo conta <a href="#">   criar conta</a></p>
+                <input type="button" value="Entrar" id="botao" onclick="login()"></input>
             </form>
 
-            <p class="acc">ainda nao tem uma conta? <a href="#">criar conta</a></p>
+            
         </div>
-    </section>
 
+    </section>
+    <script src="./assets/js/script-login.js"></script>
 </body>
 
 </html>

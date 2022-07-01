@@ -14,39 +14,11 @@ function nextImage() {
     document.getElementById("radio" + contador).checked = true;
 }
 
-let i = 1;
-document.getElementById("radio5").checked = true;
-
-setInterval(function () {
-    nextImage2();
-}, 4000)
-
-function nextImage2() {
-    i++;
-    if (i > 5) {
-        i = 1;
-    }
-
-    document.getElementById("radio4" + i).checked = true;
-}
-
-function adicionar(which) {
-    const qtd = document.querySelector("input[type='number']");
-    if (which == 'add' && qtd.value < 10)
-        qtd.value = parseInt(qtd.value) + 1;
-    else if (which == 'remove' && qtd.value > 1)
-        qtd.value = parseInt(qtd.value) - 1;
-}
-
 async function addProdutos() {
     let response = await fetch("https://codifica-demo-api.herokuapp.com/api/v1/products");
 
     if (response.ok) {
         let jsonResponse = await response.json();
-        let prodCardTemplate = document.getElementById('cardDeProduto').content.cloneNode(true);
-        let h2 = prodCardTemplate.querySelector('h2');
-        let p = prodCardTemplate.querySelector('p');
-        let img = prodCardTemplate.querySelector('img');
         let listaDeProdutos = document.getElementById('listaDeProdutos');
 
         let randomProducts = [];
@@ -57,15 +29,93 @@ async function addProdutos() {
         }
 
         for (let i = 0; i < randomProducts.length; i++) {
-            h2.innerHTML = jsonResponse[randomProducts[i]].nome;
-            p.innerHTML = `R$ ${jsonResponse[randomProducts[i]].preco}`;
+            let prodCardTemplate = document.getElementById('cardDeProduto').content.cloneNode(true);
+            let h5 = prodCardTemplate.querySelector('h5');
+            let p = prodCardTemplate.querySelector('p');
+            let img = prodCardTemplate.querySelector('img');
+            let div = prodCardTemplate.querySelector('div');
+
+            h5.innerHTML = jsonResponse[randomProducts[i]].nome;
+            p.innerHTML = `R$ ${parseFloat(jsonResponse[randomProducts[i]].preco).toFixed(2)}`;
             img.src = jsonResponse[randomProducts[i]].img;
+            div.className = `fil ${jsonResponse[randomProducts[i]].categoria}`;
+            div.id = `${jsonResponse[randomProducts[i]].id}`
             listaDeProdutos.append(prodCardTemplate);
         }
     }
 }
 
 addProdutos();
+
+function idItem(produto) {
+    if (localStorage.getItem('usuarios') == undefined) {
+        window.location.href = "./login.html"
+    } else {
+        let IDs = [];
+        let id = produto.id;
+        IDs.push(id);
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const parametro = urlParams.get('usuario');
+        localStorage.setItem(`IDs ${parametro}`, (IDs));
+    }
+}
+
+function usuarioQual() {
+    if (localStorage.getItem('usuarios') == undefined) {
+        window.location.href = "./login.html"
+    } else {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const parametro = urlParams.get('usuario');
+        window.location.href = `./carrinho.html?usuario=${parametro}`;
+    }
+}
+
+function filtro(categoria) {
+    let listaDeProdutos = document.getElementById('listaDeProdutos');
+
+    if (categoria == 'banhoETosa') {
+        let remove = listaDeProdutos.querySelectorAll("div.racao, div.brinquedos, div.acessoriosAlimentacao");
+        if (remove[0].style.display == "none") {
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: inline-block;";
+        }
+        else
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: none;";
+    }
+    else if (categoria == 'Brinquedos') {
+        let remove = listaDeProdutos.querySelectorAll("div.racao, div.banhoETosa, div.acessoriosAlimentacao");
+        if (remove[0].style.display == "none") {
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: inline-block;";
+        }
+        else
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: none;";
+    }
+    else if (categoria == 'Acessorios') {
+        let remove = listaDeProdutos.querySelectorAll("div.racao, div.brinquedos, div.banhoETosa");
+        if (remove[0].style.display == "none") {
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: inline-block;";
+        }
+        else
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: none;";
+    }
+    else if (categoria == 'Racoes') {
+        let remove = listaDeProdutos.querySelectorAll("div.banhoETosa, div.brinquedos, div.acessoriosAlimentacao");
+        if (remove[0].style.display == "none") {
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: inline-block;";
+        }
+        else
+            for (let i = 0; i < remove.length; i++)
+                remove[i].style = "display: none;";
+    }
+}
 
 // >-------------------------------adicionar ao carrinho---------------------------<
 
