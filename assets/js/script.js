@@ -1,3 +1,35 @@
+let contador = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval(function () {
+    nextImage();
+}, 4000)
+
+function nextImage() {
+    contador++;
+    if (contador > 4) {
+        contador = 1;
+    }
+
+    document.getElementById("radio" + contador).checked = true;
+}
+
+let i = 1;
+document.getElementById("radio5").checked = true;
+
+setInterval(function () {
+    nextImage2();
+}, 4000)
+
+function nextImage2() {
+    i++;
+    if (i > 5) {
+        i = 1;
+    }
+
+    document.getElementById("radio4" + i).checked = true;
+}
+
 function adicionar(which) {
     const qtd = document.querySelector("input[type='number']");
     if (which == 'add' && qtd.value < 10)
